@@ -18,7 +18,7 @@ This is a simple Banking System implemented in C++ that allows users to create b
 ## How to Compile and Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/banking-system.git
+   git clone https://github.com/Sugamshaw/Code-banking-management-system.git
    cd banking-system
    ```
 2. Compile the program:

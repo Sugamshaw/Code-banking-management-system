@@ -18,7 +18,7 @@ This is a simple Banking System implemented in C++ that allows users to create b
 ## How to Compile and Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Sugamshaw/Code-banking-management-system.git
+   git clonehttps://github.com/Sugamshaw/Code-banking-management-system.git
    cd banking-system
    ```
 2. Compile the program:
@@ -88,10 +88,37 @@ public:
     void ShowAllAccounts();
     ~Bank();
 };
-``` 
+```
+
+## Sample Output
+```
+Welcome to the Banking System
+1. Open an Account
+2. Balance Enquiry
+3. Deposit
+4. Withdraw
+5. Close Account
+6. Show All Accounts
+7. Exit
+
+Enter your choice: 1
+Enter First Name: John
+Enter Last Name: Doe
+Enter Initial Balance: 1000
+Account Created Successfully! Account Number: 1001
+
+Enter your choice: 3
+Enter Account Number: 1001
+Enter Deposit Amount: 500
+Amount Deposited Successfully! New Balance: 1500
+
+Enter your choice: 7
+Exiting the Banking System...
+```
 
 ## Future Enhancements
 - Implement authentication (PIN/password-based security)
 - Enhance file handling for better efficiency
 - Introduce more banking operations (loans, interest calculation, etc.)
+
 
